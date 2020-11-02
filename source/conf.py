@@ -79,10 +79,10 @@ html_static_path = [sphinx_rtd_theme.get_html_theme_path()]
 htmlhelp_basename = 'ComicPT'
 
 
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-source_suffix = ['.rst', '.md']
+# source_parsers = {
+#     '.md': CommonMarkParser,
+# }
+source_suffix = ['.rst']
 # -- Options for LaTeX output ------------------------------------------------
 
 latex_elements = {
